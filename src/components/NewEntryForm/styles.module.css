@@ -1,0 +1,87 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formTitle {
+  padding: 15px 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.formDate {
+  color: #969696;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #616161;
+  border: 1px solid whitesmoke;
+  font-size: 12px;
+}
+
+.addButton {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: rgba(236, 181, 159, 0.782);
+  font-weight: 700;
+  color: white;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.addButton:disabled {
+  cursor: default;
+  background-color: rgba(247, 217, 206, 0.682);
+}
+
+@media only screen and (min-width: 600px) {
+  .formTitle {
+    font-size: 18px;
+  }
+
+  .form,
+  .formDate,
+  .input,
+  .addButton {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .formTitle {
+    font-size: 22.5px;
+  }
+
+  .form,
+  .formDate,
+  .input,
+  .addButton {
+    font-size: 15px;
+  }
+}

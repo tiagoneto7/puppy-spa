@@ -1,0 +1,20 @@
+.addIcon {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: rgba(222, 165, 142, 0.597);
+}
+
+@media only screen and (min-width: 600px) {
+  .addIcon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .addIcon {
+    width: 48px;
+    height: 48px;
+  }
+}

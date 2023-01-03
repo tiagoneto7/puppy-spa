@@ -1,0 +1,19 @@
+.checkedIcon {
+  padding-left: 6px;
+  width: 10px;
+  width: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .checkedIcon {
+    width: 15px;
+    width: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .checkedIcon {
+    width: 20px;
+    width: 20px;
+  }
+}
